@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonte/Minecraft.ttf');
+} 
+
+body {
+    background-image: url('../fotos/FUNDO_POKEMON.png'), url('../fotos/FUNDO2_POKEMON.png');
+    background-repeat: no-repeat, repeat-y;
+    font-family: 'Minecraft', sans-serif;
+    font-size: larger;
+}
+
+.button{
+    position: absolute;
+    border-radius: 12px;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+dialog {
+    text-align: center;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+}
+
+dialog > button {
+    background-color: rgb(250, 38, 38);
+    border-color: rgb(250, 38, 38);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: .2s;
+}
+
+dialog > button:hover {
+    border-color: rgb(253, 80, 80);
+    background-color: rgb(253, 80, 80);
+    color: white;
+    cursor: pointer;
+}
+
+.frame {
+    position: absolute;
+    width: 224px;
+    height: 100px;
+    
+}
+
+.box {
+    position: absolute;
+    background-color: crimson;
+    width: 224px;
+    height: 140px;
+    border-radius: 12px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 140px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+    color: white;
+    
+    transition: 1.2s ease;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 0;
+    
+    border-bottom: 60px solid black;
+    border-top: 60px solid black;
+    border-left: 0px solid transparent;
+    border-right: 60px solid transparent;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+    top: -92px;
+    left: 78px;
+
+}
+
+.box:hover {
+    background-color: rgb(139, 20, 44);
+    cursor: pointer;
+}
+
+.box1{
+    transform: translate(640px,70px);
+}
+
+.frame1{
+    transform: translate(640px,70px);
+}
+
+.button1{
+    transform: translate(690px,160px);
+}
+
+.box2{
+    transform: translate(1260px, 110px);
+}
+
+.frame2{
+    transform: translate(1260px, 110px);
+}
+
+.button2{
+    transform: translate(1310px, 200px);
+}
+
+.box3{
+    transform: translate(1260px, 350px);
+}
+
+.frame3{
+    transform: translate(1260px, 350px);
+}
+
+.button3{
+    transform: translate(1310px, 440px);
+}
+
+.box4{
+    transform: translate(710px, 380px);
+}
+
+.frame4{
+    transform: translate(710px, 380px);  
+}
+
+.button4{
+    transform: translate(760px, 470px);
+}
+
+.box5{
+    transform: translate(710px, 600px);
+}
+
+.frame5{
+    transform: translate(710px, 600px); 
+}
+
+.button5{
+    transform: translate(760px, 690px);
+}
+
+.box6{
+    transform: translate(450px, 690px);
+}
+
+.frame6{
+    transform: translate(450px, 690px); 
+}
+
+.button6{
+    transform: translate(500px, 780px);
+}
+
+.box7{
+    transform: translate(900px, 800px); 
+}
+
+.frame7{
+    transform: translate(900px, 800px); 
+}
+
+.button7{
+    transform: translate(950px, 890px);
+}
+
+.box8{
+    transform: translate(640px,1050px);
+}
+
+.frame8{
+    transform: translate(640px,1050px);
+}
+
+.button8{
+    transform: translate(690px,1140px);
+}
+
+.box9{
+    transform: translate(1260px, 1140px);
+}
+
+.frame9{
+    transform: translate(1260px, 1140px);
+}
+
+.button9{
+    transform: translate(1310px, 1230px);
+}
+
+.box10{
+    transform: translate(1260px, 1380px);
+}
+
+.frame10 {
+    transform: translate(1260px, 1380px);
+}
+
+.button10{
+    transform: translate(1310px, 1470px);
+}
+
+.box11{
+    transform: translate(710px, 1410px);
+}
+
+.frame11{
+    transform: translate(710px, 1410px);  
+}
+
+.button11{
+    transform: translate(760px, 1500px);
+}
+
+.box12{
+    transform: translate(710px, 1630px);
+}
+
+.frame12{
+    transform: translate(710px, 1630px); 
+}
+
+.button12{
+    transform: translate(760px, 1720px);
+}
+
+.box13{
+    transform: translate(450px, 1720px);
+}
+
+.frame13{
+    transform: translate(450px, 1720px); 
+}
+
+.button13{
+    transform: translate(500px, 1810px);
+}
+
+.box14{
+    transform: translate(900px, 1830px); 
+}
+
+.frame14{
+    transform: translate(900px, 1830px); 
+}
+
+.button14{
+    transform: translate(950px, 1920px);
+}
