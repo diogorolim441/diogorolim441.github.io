@@ -16,28 +16,14 @@ function clicado(caixa) {
   //}
 }
 
+// Adicionando um event listener para cada botão
+function abrirModal(modal){
+  var modal = document.getElementById(modal)
+  modal.showModal();
+};
 
-const abrirModal1 = document.querySelector('#abrir-modal1')
-const modal1 = document.querySelector('#modal1')
-const fecharModal1 = document.querySelector('#fechar-modal1')
-
-abrirModal1.addEventListener('click', () => {
-  modal1.showModal();
-})
-
-fecharModal1.addEventListener('click', () => {
-  modal1.close();
-})
-
-const abrirModal2 = document.querySelector('#abrir-modal2')
-const modal2 = document.querySelector('#modal2')
-const fecharModal2 = document.querySelector('#fechar-modal2')
-
-abrirModal2.addEventListener('click', () => {
-  modal2.showModal();
-})
-
-fecharModal2.addEventListener('click', () => {
-  modal2.close();
-})
-
+// Adicionando um event listener para cada botão
+function fecharModal(modal) {
+  var modal = document.getElementById(modal)
+  modal.close();
+};
