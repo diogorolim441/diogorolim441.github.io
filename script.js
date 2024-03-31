@@ -5,15 +5,15 @@ function clicado(caixa) {
   var dataFormatada = (mesSistema < 10 ? '0' : '') + mesSistema + (diaSistema < 10 ? '0' : '') + diaSistema;
   var idCaixa = caixa.id;
   
-  //if (idCaixa <= dataFormatada) {
+  if (idCaixa <= dataFormatada) {
       caixa.style.transform = "translate(-400px, 70px) rotate(1080deg)";
 
       setTimeout(function () {
           caixa.style.display = 'none';
       }, 1000);
-  //} else {
-  //    alert("Você não pode abrir esta caixa antes da data correta!");
-  //}
+  } else {
+      alert("Você não pode abrir esta caixa antes da data correta!");
+  }
 }
 
 // Adicionando um event listener para cada botão
