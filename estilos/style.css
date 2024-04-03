@@ -97,11 +97,7 @@ dialog > button:hover {
     cursor: pointer;
 }
 
-.box1{
-    transform: translate(640px,70px);
-}
-
-.frame1{
+.box1, .frame1{
     transform: translate(640px,70px);
 }
 
@@ -109,11 +105,7 @@ dialog > button:hover {
     transform: translate(690px,160px);
 }
 
-.box2{
-    transform: translate(1260px, 110px);
-}
-
-.frame2{
+.box2, .frame2{
     transform: translate(1260px, 110px);
 }
 
@@ -121,11 +113,7 @@ dialog > button:hover {
     transform: translate(1310px, 200px);
 }
 
-.box3{
-    transform: translate(1260px, 350px);
-}
-
-.frame3{
+.box3, .frame3{
     transform: translate(1260px, 350px);
 }
 
@@ -133,47 +121,31 @@ dialog > button:hover {
     transform: translate(1310px, 440px);
 }
 
-.box4{
-    transform: translate(710px, 380px);
-}
-
-.frame4{
-    transform: translate(710px, 380px);  
+.box4, .frame4{
+    transform: translate(710px, 350px);
 }
 
 .button4{
-    transform: translate(760px, 470px);
+    transform: translate(760px, 440px);
 }
 
-.box5{
-    transform: translate(710px, 600px);
-}
-
-.frame5{
-    transform: translate(710px, 600px); 
+.box5, .frame5{
+    transform: translate(710px, 570px);
 }
 
 .button5{
-    transform: translate(760px, 690px);
+    transform: translate(760px, 660px);
 }
 
-.box6{
+.box6, .frame6{
     transform: translate(450px, 690px);
-}
-
-.frame6{
-    transform: translate(450px, 690px); 
 }
 
 .button6{
     transform: translate(500px, 780px);
 }
 
-.box7{
-    transform: translate(900px, 800px); 
-}
-
-.frame7{
+.box7, .frame7{
     transform: translate(900px, 800px); 
 }
 
@@ -181,23 +153,15 @@ dialog > button:hover {
     transform: translate(950px, 890px);
 }
 
-.box8{
-    transform: translate(640px,1050px);
-}
-
-.frame8{
-    transform: translate(640px,1050px);
+.box8, .frame8{
+    transform: translate(640px,1010px);
 }
 
 .button8{
-    transform: translate(690px,1140px);
+    transform: translate(690px,1110px);
 }
 
-.box9{
-    transform: translate(1260px, 1140px);
-}
-
-.frame9{
+.box9, .frame9{
     transform: translate(1260px, 1140px);
 }
 
@@ -205,11 +169,7 @@ dialog > button:hover {
     transform: translate(1310px, 1230px);
 }
 
-.box10{
-    transform: translate(1260px, 1380px);
-}
-
-.frame10 {
+.box10, .frame10{
     transform: translate(1260px, 1380px);
 }
 
@@ -217,50 +177,90 @@ dialog > button:hover {
     transform: translate(1310px, 1470px);
 }
 
-.box11{
-    transform: translate(710px, 1410px);
-}
-
-.frame11{
-    transform: translate(710px, 1410px);  
+.box11, .frame11{
+    transform: translate(710px, 1380px);
 }
 
 .button11{
-    transform: translate(760px, 1500px);
+    transform: translate(760px, 1470px);
 }
 
-.box12{
-    transform: translate(710px, 1630px);
-}
-
-.frame12{
-    transform: translate(710px, 1630px); 
+.box12, .frame12{
+    transform: translate(710px, 1600px);
 }
 
 .button12{
-    transform: translate(760px, 1720px);
+    transform: translate(760px, 1690px);
 }
 
-.box13{
+.box13, .frame13{
     transform: translate(450px, 1720px);
-}
-
-.frame13{
-    transform: translate(450px, 1720px); 
 }
 
 .button13{
     transform: translate(500px, 1810px);
 }
 
-.box14{
-    transform: translate(900px, 1830px); 
-}
-
-.frame14{
+.box14, .frame14{
     transform: translate(900px, 1830px); 
 }
 
 .button14{
     transform: translate(950px, 1920px);
+}
+
+.box15, .frame15{
+    transform: translate(640px,2070px);
+}
+
+.button15{
+    transform: translate(690px,2160px);
+}
+
+.box16, .frame16{
+    transform: translate(1260px, 2200px);
+}
+
+.button16{
+    transform: translate(1310px, 2290px);
+}
+
+.box17, .frame17{
+    transform: translate(1260px, 2440px);
+}
+
+.button17{
+    transform: translate(1310px, 2530px);
+}
+
+.box18, .frame18{
+    transform: translate(710px, 2440px);
+}
+
+.button18{
+    transform: translate(760px, 2530px);
+}
+
+.box19, .frame19{
+    transform: translate(710px, 2660px);
+}
+
+.button19{
+    transform: translate(760px, 2750px);
+}
+
+.box20, .frame20{
+    transform: translate(450px, 2780px);
+}
+
+.button20{
+    transform: translate(500px, 2870px);
+}
+
+.box21, .frame21{
+    transform: translate(900px, 2890px); 
+}
+
+.button21{
+    transform: translate(950px, 2980px);
 }
