@@ -21,7 +21,6 @@ body {
     
     cursor: pointer;
     transition: .2s;
-    
 }
 
 button:hover {
@@ -97,170 +96,241 @@ dialog > button:hover {
     cursor: pointer;
 }
 
-.box1, .frame1{
+.box1{
     transform: translate(640px,70px);
 }
 
-.button1{
-    transform: translate(690px,160px);
+.button0 {
+    transform: translate(690px,120px);
+    background-color: rgb(255, 217, 0); 
 }
 
-.box2, .frame2{
+.button0:hover {
+    background-color: goldenrod;
+}
+
+.dialog0 {
+    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
+}
+
+.dialog0 > h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(22, 22, 0);
+    border-bottom: 3px solid black;
+    border-radius: 1px;
+    padding-bottom: 5px;
+    margin-top: -8px;
+}
+
+.dialog0 > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+
+.dialog0 > button {
+    background-color: black;
+    border-color: black;
+    color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+    
+}
+
+.dialog0 > button:hover {
+    background-color: rgb(55, 55, 55);
+    border-color: black;
+    
+}
+
+.box2, .frame1{
     transform: translate(1260px, 110px);
 }
 
-.button2{
+.button1{
     transform: translate(1310px, 200px);
 }
 
-.box3, .frame3{
+.box3, .frame2{
     transform: translate(1260px, 350px);
 }
 
-.button3{
+.button2{
     transform: translate(1310px, 440px);
 }
 
-.box4, .frame4{
+.box4, .frame3{
     transform: translate(710px, 350px);
 }
 
-.button4{
+.button3{
     transform: translate(760px, 440px);
 }
 
-.box5, .frame5{
+.box5, .frame4{
     transform: translate(710px, 570px);
 }
 
-.button5{
+.button4{
     transform: translate(760px, 660px);
 }
 
-.box6, .frame6{
+.box6, .frame5{
     transform: translate(450px, 690px);
 }
 
-.button6{
+.button5{
     transform: translate(500px, 780px);
 }
 
-.box7, .frame7{
+.box7, .frame6{
     transform: translate(900px, 800px); 
 }
 
-.button7{
+.button6{
     transform: translate(950px, 890px);
 }
 
-.box8, .frame8{
+.box8, .frame7{
     transform: translate(640px,1010px);
 }
 
-.button8{
+.button7{
     transform: translate(690px,1110px);
 }
 
-.box9, .frame9{
+.box9, .frame8{
     transform: translate(1260px, 1140px);
 }
 
-.button9{
+.button8{
     transform: translate(1310px, 1230px);
 }
 
-.box10, .frame10{
+.box10, .frame9{
     transform: translate(1260px, 1380px);
 }
 
-.button10{
+.button9{
     transform: translate(1310px, 1470px);
 }
 
-.box11, .frame11{
+.box11, .frame10{
     transform: translate(710px, 1380px);
 }
 
-.button11{
+.button10{
     transform: translate(760px, 1470px);
 }
 
-.box12, .frame12{
+.box12, .frame11{
     transform: translate(710px, 1600px);
 }
 
-.button12{
+.button11{
     transform: translate(760px, 1690px);
 }
 
-.box13, .frame13{
+.box13, .frame12{
     transform: translate(450px, 1720px);
 }
 
-.button13{
+.button12{
     transform: translate(500px, 1810px);
 }
 
-.box14, .frame14{
+.box14, .frame13{
     transform: translate(900px, 1830px); 
 }
 
-.button14{
+.button13{
     transform: translate(950px, 1920px);
 }
 
-.box15, .frame15{
+.box15, .frame14{
     transform: translate(640px,2070px);
 }
 
-.button15{
+.button14{
     transform: translate(690px,2160px);
 }
 
-.box16, .frame16{
+.box16, .frame15{
     transform: translate(1260px, 2200px);
 }
 
-.button16{
+.button15{
     transform: translate(1310px, 2290px);
 }
 
-.box17, .frame17{
+.box17, .frame16{
     transform: translate(1260px, 2440px);
 }
 
-.button17{
+.button16{
     transform: translate(1310px, 2530px);
 }
 
-.box18, .frame18{
+.box18, .frame17{
     transform: translate(710px, 2440px);
 }
 
-.button18{
+.button17{
     transform: translate(760px, 2530px);
 }
 
-.box19, .frame19{
+.box19, .frame18{
     transform: translate(710px, 2660px);
 }
 
-.button19{
+.button18{
     transform: translate(760px, 2750px);
 }
 
-.box20, .frame20{
+.box20, .frame19{
     transform: translate(450px, 2780px);
 }
 
-.button20{
+.button19{
     transform: translate(500px, 2870px);
 }
 
-.box21, .frame21{
+.box21, .frame20{
     transform: translate(900px, 2890px); 
 }
 
-.button21{
+.button20{
     transform: translate(950px, 2980px);
+}
+
+.box22, .frame21{
+    transform: translate(640px,3130px);
+}
+
+.button21{
+    transform: translate(690px,3220px);
+}
+
+.box23, .frame22{
+    transform: translate(1260px, 3260px);
+}
+
+.button22{
+    transform: translate(1310px, 3350px);
+}
+
+.box24, .frame23{
+    transform: translate(1260px, 3500px);
+}
+
+.button23{
+    transform: translate(1310px, 3590px);
+}
+
+.box25 , .frame24{
+    transform: translate(710px, 3500px);
+}
+
+.button24{
+    transform: translate(760px, 3590px);
 }

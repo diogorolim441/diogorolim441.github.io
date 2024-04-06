@@ -11,19 +11,31 @@ function clicado(caixa) {
       setTimeout(function () {
           caixa.style.display = 'none';
       }, 1000);
+      localStorage.setItem(idCaixa + '_transform', caixa.style.transform);
+
   } else {
       alert("Você não pode abrir esta caixa antes da data correta!");
   }
 }
 
+function carregarEstadoCaixas() {
+  var caixas = document.querySelectorAll('.box');
+  caixas.forEach(function(caixa) {
+    var transformSalvo = localStorage.getItem(caixa.id + '_transform');
+    if (transformSalvo) {
+      caixa.style.transform = transformSalvo;
+    }
+  });
+}
+
 // Adicionando um event listener para cada botão
 function abrirModal(modal){
-  var modal = document.getElementById(modal)
-  modal.showModal();
+  document.getElementById(modal).showModal();
 };
 
 // Adicionando um event listener para cada botão
 function fecharModal(modal) {
-  var modal = document.getElementById(modal)
-  modal.close();
+  document.getElementById(modal).close();
 };
+
+carregarEstadoCaixas();
