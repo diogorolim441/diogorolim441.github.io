@@ -11,7 +11,7 @@ function clicado(caixa) {
       setTimeout(function () {
           caixa.style.display = 'none';
       }, 1000);
-      localStorage.setItem(idCaixa + '_transform', caixa.style.transform);
+      //localStorage.setItem(idCaixa + '_transform', caixa.style.transform);
 
   } else {
       alert("Você não pode abrir esta caixa antes da data correta!");
