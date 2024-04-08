@@ -102,7 +102,7 @@ dialog > button:hover {
 
 .button0 {
     transform: translate(690px,120px);
-    background-color: rgb(255, 217, 0); 
+    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
 }
 
 .button0:hover {
@@ -333,4 +333,44 @@ dialog > button:hover {
 
 .button24{
     transform: translate(760px, 3590px);
+}
+
+.box26, .frame25{
+    transform: translate(710px, 3720px);
+}
+
+.button25{
+    transform: translate(760px, 3810px);
+}
+
+.box27, .frame26{
+    transform: translate(450px, 3840px);
+}
+
+.button26{
+    transform: translate(500px, 3930px);
+}
+
+.box28{
+    transform: translate(900px, 3950px); 
+}
+
+.button27{
+    transform: translate(950px, 4040px);
+}
+
+.box29{
+    transform: translate(640px,4190px);
+}
+
+.button28{
+    transform: translate(690px,4280px);
+}
+
+.box30{
+    transform: translate(1260px, 4320px);
+}
+
+.button29{
+    transform: translate(1310px, 4410px);
 }
