@@ -335,7 +335,11 @@ dialog > button:hover {
     transform: translate(760px, 3590px);
 }
 
-.box26, .frame25{
+.box26{
+    transform: translate(710px, 3720px);
+}
+
+.frame25{
     transform: translate(710px, 3720px);
 }
 
