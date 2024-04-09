@@ -70,7 +70,6 @@ dialog > button:hover {
     line-height: 140px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
     color: white;
-    
     transition: 1.2s ease;
 }
 
@@ -356,8 +355,8 @@ dialog > button:hover {
 .boxbonus {
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;   
-	-webkit-animation: rainbow 10s ease infinite;
-    animation: rainbow 10s ease infinite;
+	-webkit-animation: rainbow 7s ease infinite;
+    animation: rainbow 7s ease infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -381,13 +380,16 @@ dialog > button:hover {
 }
 
 .box28{
+    background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
     transform: translate(900px, 3950px); 
 }
 
 .box29{
+    background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
     transform: translate(640px,4190px);
 }
 
 .box30{
+    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
     transform: translate(1260px, 4320px);
 }
