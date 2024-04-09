@@ -59,6 +59,27 @@ dialog > button:hover {
     
 }
 
+.gift {
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 140px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+    color: white;
+    transition: 1.2s ease;
+}
+
+.gift:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.gift1{
+    transform: translate(630px,30px);
+}
+
 .box {
     position: absolute;
     background-color: crimson;
@@ -93,10 +114,6 @@ dialog > button:hover {
 .box:hover {
     background-color: rgb(139, 20, 44);
     cursor: pointer;
-}
-
-.box1{
-    transform: translate(640px,70px);
 }
 
 .button0 {
@@ -144,7 +161,11 @@ dialog > button:hover {
     
 }
 
-.box2, .frame1{
+.gift2{
+    transform: translate(1250px, 60px);
+} 
+
+.frame1{
     transform: translate(1260px, 110px);
 }
 
@@ -152,7 +173,11 @@ dialog > button:hover {
     transform: translate(1310px, 200px);
 }
 
-.box3, .frame2{
+.gift3{
+    transform: translate(1250px, 300px);
+}
+
+.frame2{
     transform: translate(1260px, 350px);
 }
 
@@ -160,7 +185,11 @@ dialog > button:hover {
     transform: translate(1310px, 440px);
 }
 
-.box4, .frame3{
+.gift4{
+    transform: translate(700px, 300px);
+}
+
+.frame3{
     transform: translate(710px, 350px);
 }
 
@@ -168,7 +197,11 @@ dialog > button:hover {
     transform: translate(760px, 440px);
 }
 
-.box5, .frame4{
+.gift5{
+    transform: translate(700px, 520px);
+}
+
+.frame4{
     transform: translate(710px, 570px);
 }
 
@@ -176,7 +209,11 @@ dialog > button:hover {
     transform: translate(760px, 660px);
 }
 
-.box6, .frame5{
+.gift6{
+    transform: translate(440px, 640px);
+}
+
+.frame5{
     transform: translate(450px, 690px);
 }
 
@@ -184,7 +221,11 @@ dialog > button:hover {
     transform: translate(500px, 780px);
 }
 
-.box7, .frame6{
+.gift7{
+    transform: translate(890px, 750px);
+}
+
+.frame6{
     transform: translate(900px, 800px); 
 }
 
@@ -192,7 +233,11 @@ dialog > button:hover {
     transform: translate(950px, 890px);
 }
 
-.box8, .frame7{
+.gift8{
+    transform: translate(630px, 960px);
+}
+
+.frame7{
     transform: translate(640px,1010px);
 }
 
@@ -200,7 +245,11 @@ dialog > button:hover {
     transform: translate(690px,1110px);
 }
 
-.box9, .frame8{
+.gift9{
+    transform: translate(1250px, 1090px);
+}
+
+.frame8{
     transform: translate(1260px, 1140px);
 }
 
@@ -208,7 +257,11 @@ dialog > button:hover {
     transform: translate(1310px, 1230px);
 }
 
-.box10, .frame9{
+.gift10{
+    transform: translate(1250px, 1330px);
+}
+
+.frame9{
     transform: translate(1260px, 1380px);
 }
 
@@ -216,7 +269,11 @@ dialog > button:hover {
     transform: translate(1310px, 1470px);
 }
 
-.box11, .frame10{
+.gift11{
+    transform: translate(700px, 1330px);
+}
+
+.frame10{
     transform: translate(710px, 1380px);
 }
 
@@ -224,7 +281,11 @@ dialog > button:hover {
     transform: translate(760px, 1470px);
 }
 
-.box12, .frame11{
+.gift12{
+    transform: translate(700px, 1550px);
+}
+
+.frame11{
     transform: translate(710px, 1600px);
 }
 
@@ -232,7 +293,11 @@ dialog > button:hover {
     transform: translate(760px, 1690px);
 }
 
-.box13, .frame12{
+.gift13{
+    transform: translate(440px, 1670px);
+}
+
+.frame12{
     transform: translate(450px, 1720px);
 }
 
@@ -240,7 +305,11 @@ dialog > button:hover {
     transform: translate(500px, 1810px);
 }
 
-.box14, .frame13{
+.gift14{
+    transform: translate(890px, 1780px);
+}
+
+.frame13{
     transform: translate(900px, 1830px); 
 }
 
@@ -248,7 +317,11 @@ dialog > button:hover {
     transform: translate(950px, 1920px);
 }
 
-.box15, .frame14{
+.gift15{
+    transform: translate(630px, 2020px);
+}
+
+.frame14{
     transform: translate(640px,2070px);
 }
 
@@ -256,7 +329,11 @@ dialog > button:hover {
     transform: translate(690px,2160px);
 }
 
-.box16, .frame15{
+.gift16{
+    transform: translate(1250px, 2150px);
+}
+
+.frame15{
     transform: translate(1260px, 2200px);
 }
 
@@ -264,7 +341,11 @@ dialog > button:hover {
     transform: translate(1310px, 2290px);
 }
 
-.box17, .frame16{
+.gift17{
+    transform: translate(1250px, 2390px);
+}
+
+.frame16{
     transform: translate(1260px, 2440px);
 }
 
@@ -272,7 +353,11 @@ dialog > button:hover {
     transform: translate(1310px, 2530px);
 }
 
-.box18, .frame17{
+.gift18{
+    transform: translate(700px, 2390px);
+}
+
+.frame17{
     transform: translate(710px, 2440px);
 }
 
@@ -280,7 +365,11 @@ dialog > button:hover {
     transform: translate(760px, 2530px);
 }
 
-.box19, .frame18{
+.gift19{
+    transform: translate(700px, 2610px);
+}
+
+.frame18{
     transform: translate(710px, 2660px);
 }
 
@@ -288,7 +377,11 @@ dialog > button:hover {
     transform: translate(760px, 2750px);
 }
 
-.box20, .frame19{
+.gift20{
+    transform: translate(440px, 2730px);
+}
+
+.frame19{
     transform: translate(450px, 2780px);
 }
 
@@ -296,7 +389,11 @@ dialog > button:hover {
     transform: translate(500px, 2870px);
 }
 
-.box21, .frame20{
+.gift21{
+    transform: translate(890px, 2840px);
+}
+
+.frame20{
     transform: translate(900px, 2890px); 
 }
 
@@ -304,7 +401,11 @@ dialog > button:hover {
     transform: translate(950px, 2980px);
 }
 
-.box22, .frame21{
+.gift22{
+    transform: translate(630px, 3080px);
+}
+
+.frame21{
     transform: translate(640px,3130px);
 }
 
@@ -312,7 +413,11 @@ dialog > button:hover {
     transform: translate(690px,3220px);
 }
 
-.box23, .frame22{
+.gift23{
+    transform: translate(1250px, 3210px);
+}
+
+.frame22{
     transform: translate(1260px, 3260px);
 }
 
@@ -320,7 +425,11 @@ dialog > button:hover {
     transform: translate(1310px, 3350px);
 }
 
-.box24, .frame23{
+.gift24{
+    transform: translate(1250px, 3450px);
+}
+
+.frame23{
     transform: translate(1260px, 3500px);
 }
 
@@ -328,7 +437,11 @@ dialog > button:hover {
     transform: translate(1310px, 3590px);
 }
 
-.box25 , .frame24{
+.gift25{
+    transform: translate(700px, 3450px);
+}
+
+.frame24{
     transform: translate(710px, 3500px);
 }
 
@@ -336,7 +449,11 @@ dialog > button:hover {
     transform: translate(760px, 3590px);
 }
 
-.box26, .frame25{
+.gift26{
+    transform: translate(700px, 3670px);
+}
+
+.frame25{
     transform: translate(710px, 3720px);
 }
 
@@ -353,25 +470,25 @@ dialog > button:hover {
 }
 
 .boxbonus {
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    background-size: 1800% 1800%;   
-	-webkit-animation: rainbow 7s ease infinite;
-    animation: rainbow 7s ease infinite;
+    background: linear-gradient(to right, #ff0000, #ff9a00, #d0de21, #4fdc4a, #3fdad8, #2fc9e2, #1c7fee, #5f14f2, #ba0cf8, #fb07d9, #ff0000);
+    background-size: 200% 200%;   
+	-webkit-animation: rainbow 2s linear infinite;
+    animation: rainbow 2s linear infinite;
 }
 
 @-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+    100%{background-position-x: -200%;}
 }
 
 @keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+    100%{background-position-x: -200%;}
 }
 
-.box27, .frame26{
+.gift27{
+    transform: translate(440px, 3790px);
+}
+
+.frame26{
     transform: translate(450px, 3840px);
 }
 
@@ -384,12 +501,27 @@ dialog > button:hover {
     transform: translate(900px, 3950px); 
 }
 
+.button27{
+    background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
+    transform: translate(950px, 4040px);
+}
+
 .box29{
     background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
     transform: translate(640px,4190px);
 }
 
+.button28{
+    background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
+    transform: translate(690px,4280px);
+}
+
 .box30{
     background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
     transform: translate(1260px, 4320px);
+}
+
+.button29{
+    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
+    transform: translate(1310px, 4410px);
 }
