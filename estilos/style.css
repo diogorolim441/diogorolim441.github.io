@@ -101,6 +101,8 @@ dialog > button:hover {
 }
 
 .button0 {
+    width: 130px;
+    height: 40px;
     transform: translate(690px,120px);
     background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
 }
@@ -116,7 +118,7 @@ dialog > button:hover {
 .dialog0 > h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: rgb(22, 22, 0);
+    color: rgb(0, 0, 0);
     border-bottom: 3px solid black;
     border-radius: 1px;
     padding-bottom: 5px;
@@ -352,17 +354,18 @@ dialog > button:hover {
 }
 
 .boxbonus {
-    background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    background-size: 1800% 1800%;
-    -webkit-animation: rainbow 10s ease infinite;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;   
+	-webkit-animation: rainbow 10s ease infinite;
     animation: rainbow 10s ease infinite;
 }
-    
+
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+
 @keyframes rainbow { 
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
