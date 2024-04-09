@@ -38,4 +38,5 @@ function fecharModal(modal) {
   document.getElementById(modal).close();
 };
 
+
 carregarEstadoCaixas();
