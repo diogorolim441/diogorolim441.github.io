@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat, repeat-y;
     font-family: 'Minecraft', sans-serif;
     font-size: larger;
+    background-position: top, top;
 }
 
 .button{
@@ -18,9 +19,9 @@ body {
     text-align: center;
     width: 130px;
     height: 40px;
-    
     cursor: pointer;
     transition: .2s;
+    z-index: 1;
 }
 
 button:hover {
@@ -56,19 +57,44 @@ dialog > button:hover {
     position: absolute;
     width: 224px;
     height: 100px;
-    
+    z-index: 2;
+}
+
+.txt {
+    z-index: 4;
+    position: absolute;
+    background-color: red;
+    width: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    color: white;
+    text-shadow: 0px 0px 15px whitesmoke;
+}
+
+div > img {
+    width: 250px;
+    height: 190px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.gift > div {
+    transform: translate(40px, -98px);
+    width: 160px;
+    height: 30px;
+
 }
 
 .gift {
     position: absolute;
     width: 250px;
     height: 190px;
-    z-index: 9999;
     text-align: center;
-    line-height: 140px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
     color: white;
     transition: 1.2s ease;
+    z-index: 3;
 }
 
 .gift:hover {
@@ -78,42 +104,6 @@ dialog > button:hover {
 
 .gift1{
     transform: translate(630px,30px);
-}
-
-.box {
-    position: absolute;
-    background-color: crimson;
-    width: 224px;
-    height: 140px;
-    border-radius: 12px;
-    z-index: 9999;
-    text-align: center;
-    line-height: 140px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
-    color: white;
-    transition: 1.2s ease;
-}
-
-.box::after {
-    content: '';
-    position: absolute;
-    width: 5px;
-    height: 0;
-    
-    border-bottom: 60px solid black;
-    border-top: 60px solid black;
-    border-left: 0px solid transparent;
-    border-right: 60px solid transparent;
-    border-radius: 20px;
-    transform: rotate(-90deg);
-    top: -92px;
-    left: 78px;
-
-}
-
-.box:hover {
-    background-color: rgb(139, 20, 44);
-    cursor: pointer;
 }
 
 .button0 {
@@ -461,7 +451,11 @@ dialog > button:hover {
     transform: translate(760px, 3810px);
 }
 
-.boxbonus, .framebonus{
+.giftbonus{
+    transform: translate(140px, 3790px);
+}
+
+.framebonus{
     transform: translate(150px, 3840px);
 }
 
@@ -469,11 +463,12 @@ dialog > button:hover {
     transform: translate(200px, 3930px);
 }
 
-.boxbonus {
+.giftbonus {
     background: linear-gradient(to right, #ff0000, #ff9a00, #d0de21, #4fdc4a, #3fdad8, #2fc9e2, #1c7fee, #5f14f2, #ba0cf8, #fb07d9, #ff0000);
+    overflow: hidden;
+    z-index: 4;
     background-size: 200% 200%;   
-	-webkit-animation: rainbow 2s linear infinite;
-    animation: rainbow 2s linear infinite;
+    animation: rainbow 3s linear infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -496,9 +491,16 @@ dialog > button:hover {
     transform: translate(500px, 3930px);
 }
 
-.box28{
-    background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
-    transform: translate(900px, 3950px); 
+.gift28{
+    transform: translate(890px, 3900px);
+}
+
+.gift29{
+    transform: translate(630px, 4140px);
+}
+
+.gift30{
+    transform: translate(1250px, 4270px);
 }
 
 .button27{
@@ -506,19 +508,9 @@ dialog > button:hover {
     transform: translate(950px, 4040px);
 }
 
-.box29{
-    background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
-    transform: translate(640px,4190px);
-}
-
 .button28{
     background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
     transform: translate(690px,4280px);
-}
-
-.box30{
-    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
-    transform: translate(1260px, 4320px);
 }
 
 .button29{
