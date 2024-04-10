@@ -5,7 +5,7 @@ function clicado(caixa) {
   var dataFormatada = (mesSistema < 10 ? '0' : '') + mesSistema + (diaSistema < 10 ? '0' : '') + diaSistema;
   var idCaixa = caixa.id;
   
-  if (idCaixa <= dataFormatada) {
+  //if (idCaixa <= dataFormatada) {
       caixa.style.transform = "translate(-400px, 70px) rotate(1080deg)";
 
       setTimeout(function () {
@@ -13,9 +13,9 @@ function clicado(caixa) {
       }, 1000);
       localStorage.setItem(idCaixa + '_transform', caixa.style.transform);
 
-  } else {
-      alert("Você não pode abrir esta caixa antes da data correta!");
-  }
+  //} else {
+  //    alert("Você não pode abrir esta caixa antes da data correta!");
+  //}
 }
 
 function carregarEstadoCaixas() {
@@ -38,4 +38,4 @@ function fecharModal(modal) {
   document.getElementById(modal).close();
 };
 
-carregarEstadoCaixas();
+//carregarEstadoCaixas();

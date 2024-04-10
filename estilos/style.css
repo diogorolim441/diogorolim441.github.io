@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat, repeat-y;
     font-family: 'Minecraft', sans-serif;
     font-size: larger;
+    background-position: top, top;
 }
 
 .button{
@@ -18,9 +19,9 @@ body {
     text-align: center;
     width: 130px;
     height: 40px;
-    
     cursor: pointer;
     transition: .2s;
+    z-index: 1;
 }
 
 button:hover {
@@ -56,19 +57,44 @@ dialog > button:hover {
     position: absolute;
     width: 224px;
     height: 100px;
-    
+    z-index: 2;
+}
+
+.txt {
+    z-index: 4;
+    position: absolute;
+    background-color: red;
+    width: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    color: white;
+    text-shadow: 0px 0px 15px whitesmoke;
+}
+
+div > img {
+    width: 250px;
+    height: 190px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.gift > div {
+    transform: translate(40px, -98px);
+    width: 160px;
+    height: 30px;
+
 }
 
 .gift {
     position: absolute;
     width: 250px;
     height: 190px;
-    z-index: 9999;
     text-align: center;
-    line-height: 140px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
     color: white;
     transition: 1.2s ease;
+    z-index: 3;
 }
 
 .gift:hover {
@@ -77,49 +103,13 @@ dialog > button:hover {
 }
 
 .gift1{
-    transform: translate(630px,30px);
-}
-
-.box {
-    position: absolute;
-    background-color: crimson;
-    width: 224px;
-    height: 140px;
-    border-radius: 12px;
-    z-index: 9999;
-    text-align: center;
-    line-height: 140px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
-    color: white;
-    transition: 1.2s ease;
-}
-
-.box::after {
-    content: '';
-    position: absolute;
-    width: 5px;
-    height: 0;
-    
-    border-bottom: 60px solid black;
-    border-top: 60px solid black;
-    border-left: 0px solid transparent;
-    border-right: 60px solid transparent;
-    border-radius: 20px;
-    transform: rotate(-90deg);
-    top: -92px;
-    left: 78px;
-
-}
-
-.box:hover {
-    background-color: rgb(139, 20, 44);
-    cursor: pointer;
+    transform: translate(330px,30px);
 }
 
 .button0 {
     width: 130px;
     height: 40px;
-    transform: translate(690px,120px);
+    transform: translate(390px,120px);
     background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
 }
 
@@ -162,318 +152,323 @@ dialog > button:hover {
 }
 
 .gift2{
-    transform: translate(1250px, 60px);
+    transform: translate(950px, 60px);
 } 
 
 .frame1{
-    transform: translate(1260px, 110px);
+    transform: translate(960px, 110px);
 }
 
 .button1{
-    transform: translate(1310px, 200px);
+    transform: translate(1010px, 200px);
 }
 
 .gift3{
-    transform: translate(1250px, 300px);
+    transform: translate(950px, 300px);
 }
 
 .frame2{
-    transform: translate(1260px, 350px);
+    transform: translate(960px, 350px);
 }
 
 .button2{
-    transform: translate(1310px, 440px);
+    transform: translate(1010px, 440px);
 }
 
 .gift4{
-    transform: translate(700px, 300px);
+    transform: translate(400px, 300px);
 }
 
 .frame3{
-    transform: translate(710px, 350px);
+    transform: translate(410px, 350px);
 }
 
 .button3{
-    transform: translate(760px, 440px);
+    transform: translate(460px, 440px);
 }
 
 .gift5{
-    transform: translate(700px, 520px);
+    transform: translate(400px, 520px);
 }
 
 .frame4{
-    transform: translate(710px, 570px);
+    transform: translate(410px, 570px);
 }
 
 .button4{
-    transform: translate(760px, 660px);
+    transform: translate(460px, 660px);
 }
 
 .gift6{
-    transform: translate(440px, 640px);
+    transform: translate(140px, 640px);
 }
 
 .frame5{
-    transform: translate(450px, 690px);
+    transform: translate(150px, 690px);
 }
 
 .button5{
-    transform: translate(500px, 780px);
+    transform: translate(200px, 780px);
 }
 
 .gift7{
-    transform: translate(890px, 750px);
+    transform: translate(590px, 750px);
 }
 
 .frame6{
-    transform: translate(900px, 800px); 
+    transform: translate(600px, 800px); 
 }
 
 .button6{
-    transform: translate(950px, 890px);
+    transform: translate(650px, 890px);
 }
 
 .gift8{
-    transform: translate(630px, 960px);
+    transform: translate(330px, 960px);
 }
 
 .frame7{
-    transform: translate(640px,1010px);
+    transform: translate(340px,1010px);
 }
 
 .button7{
-    transform: translate(690px,1100px);
+    transform: translate(390px,1100px);
 }
 
 .gift9{
-    transform: translate(1250px, 1090px);
+    transform: translate(950px, 1090px);
 }
 
 .frame8{
-    transform: translate(1260px, 1140px);
+    transform: translate(960px, 1140px);
 }
 
 .button8{
-    transform: translate(1310px, 1230px);
+    transform: translate(1010px, 1230px);
 }
 
 .gift10{
-    transform: translate(1250px, 1330px);
+    transform: translate(950px, 1330px);
 }
 
 .frame9{
-    transform: translate(1260px, 1380px);
+    transform: translate(960px, 1380px);
 }
 
 .button9{
-    transform: translate(1310px, 1470px);
+    transform: translate(1010px, 1470px);
 }
 
 .gift11{
-    transform: translate(700px, 1330px);
+    transform: translate(400px, 1330px);
 }
 
 .frame10{
-    transform: translate(710px, 1380px);
+    transform: translate(410px, 1380px);
 }
 
 .button10{
-    transform: translate(760px, 1470px);
+    transform: translate(460px, 1470px);
 }
 
 .gift12{
-    transform: translate(700px, 1550px);
+    transform: translate(400px, 1550px);
 }
 
 .frame11{
-    transform: translate(710px, 1600px);
+    transform: translate(410px, 1600px);
 }
 
 .button11{
-    transform: translate(760px, 1690px);
+    transform: translate(460px, 1690px);
 }
 
 .gift13{
-    transform: translate(440px, 1670px);
+    transform: translate(140px, 1670px);
 }
 
 .frame12{
-    transform: translate(450px, 1720px);
+    transform: translate(150px, 1720px);
 }
 
 .button12{
-    transform: translate(500px, 1810px);
+    transform: translate(200px, 1810px);
 }
 
 .gift14{
-    transform: translate(890px, 1780px);
+    transform: translate(590px, 1780px);
 }
 
 .frame13{
-    transform: translate(900px, 1830px); 
+    transform: translate(600px, 1830px); 
 }
 
 .button13{
-    transform: translate(950px, 1920px);
+    transform: translate(650px, 1920px);
 }
 
 .gift15{
-    transform: translate(630px, 2020px);
+    transform: translate(330px, 2020px);
 }
 
 .frame14{
-    transform: translate(640px,2070px);
+    transform: translate(340px,2070px);
 }
 
 .button14{
-    transform: translate(690px,2160px);
+    transform: translate(390px,2160px);
 }
 
 .gift16{
-    transform: translate(1250px, 2150px);
+    transform: translate(950px, 2150px);
 }
 
 .frame15{
-    transform: translate(1260px, 2200px);
+    transform: translate(960px, 2200px);
 }
 
 .button15{
-    transform: translate(1310px, 2290px);
+    transform: translate(1010px, 2290px);
 }
 
 .gift17{
-    transform: translate(1250px, 2390px);
+    transform: translate(950px, 2390px);
 }
 
 .frame16{
-    transform: translate(1260px, 2440px);
+    transform: translate(960px, 2440px);
 }
 
 .button16{
-    transform: translate(1310px, 2530px);
+    transform: translate(1010px, 2530px);
 }
 
 .gift18{
-    transform: translate(700px, 2390px);
+    transform: translate(400px, 2390px);
 }
 
 .frame17{
-    transform: translate(710px, 2440px);
+    transform: translate(410px, 2440px);
 }
 
 .button17{
-    transform: translate(760px, 2530px);
+    transform: translate(460px, 2530px);
 }
 
 .gift19{
-    transform: translate(700px, 2610px);
+    transform: translate(400px, 2610px);
 }
 
 .frame18{
-    transform: translate(710px, 2660px);
+    transform: translate(410px, 2660px);
 }
 
 .button18{
-    transform: translate(760px, 2750px);
+    transform: translate(460px, 2750px);
 }
 
 .gift20{
-    transform: translate(440px, 2730px);
+    transform: translate(140px, 2730px);
 }
 
 .frame19{
-    transform: translate(450px, 2780px);
+    transform: translate(150px, 2780px);
 }
 
 .button19{
-    transform: translate(500px, 2870px);
+    transform: translate(200px, 2870px);
 }
 
 .gift21{
-    transform: translate(890px, 2840px);
+    transform: translate(590px, 2840px);
 }
 
 .frame20{
-    transform: translate(900px, 2890px); 
+    transform: translate(600px, 2890px); 
 }
 
 .button20{
-    transform: translate(950px, 2980px);
+    transform: translate(650px, 2980px);
 }
 
 .gift22{
-    transform: translate(630px, 3080px);
+    transform: translate(330px, 3080px);
 }
 
 .frame21{
-    transform: translate(640px,3130px);
+    transform: translate(340px,3130px);
 }
 
 .button21{
-    transform: translate(690px,3220px);
+    transform: translate(390px,3220px);
 }
 
 .gift23{
-    transform: translate(1250px, 3210px);
+    transform: translate(950px, 3210px);
 }
 
 .frame22{
-    transform: translate(1260px, 3260px);
+    transform: translate(960px, 3260px);
 }
 
 .button22{
-    transform: translate(1310px, 3350px);
+    transform: translate(1010px, 3350px);
 }
 
 .gift24{
-    transform: translate(1250px, 3450px);
+    transform: translate(950px, 3450px);
 }
 
 .frame23{
-    transform: translate(1260px, 3500px);
+    transform: translate(960px, 3500px);
 }
 
 .button23{
-    transform: translate(1310px, 3590px);
+    transform: translate(1010px, 3590px);
 }
 
 .gift25{
-    transform: translate(700px, 3450px);
+    transform: translate(400px, 3450px);
 }
 
 .frame24{
-    transform: translate(710px, 3500px);
+    transform: translate(410px, 3500px);
 }
 
 .button24{
-    transform: translate(760px, 3590px);
+    transform: translate(460px, 3590px);
 }
 
 .gift26{
-    transform: translate(700px, 3670px);
+    transform: translate(400px, 3670px);
 }
 
 .frame25{
-    transform: translate(710px, 3720px);
+    transform: translate(410px, 3720px);
 }
 
 .button25{
-    transform: translate(760px, 3810px);
+    transform: translate(460px, 3810px);
 }
 
-.boxbonus, .framebonus{
-    transform: translate(150px, 3840px);
+.giftbonus{
+    transform: translate(840px, 3700px);
+}
+
+.framebonus{
+    transform: translate(850px, 3750px);
 }
 
 .buttonbonus{
-    transform: translate(200px, 3930px);
+    transform: translate(900px, 3840px);
 }
 
-.boxbonus {
+.giftbonus {
     background: linear-gradient(to right, #ff0000, #ff9a00, #d0de21, #4fdc4a, #3fdad8, #2fc9e2, #1c7fee, #5f14f2, #ba0cf8, #fb07d9, #ff0000);
+    overflow: hidden;
+    z-index: 4;
     background-size: 200% 200%;   
-	-webkit-animation: rainbow 2s linear infinite;
-    animation: rainbow 2s linear infinite;
+    animation: rainbow 3s linear infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -485,43 +480,40 @@ dialog > button:hover {
 }
 
 .gift27{
-    transform: translate(440px, 3790px);
+    transform: translate(140px, 3790px);
 }
 
 .frame26{
-    transform: translate(450px, 3840px);
+    transform: translate(150px, 3840px);
 }
 
 .button26{
-    transform: translate(500px, 3930px);
+    transform: translate(200px, 3930px);
 }
 
-.box28{
-    background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
-    transform: translate(900px, 3950px); 
+.gift28{
+    transform: translate(590px, 3900px);
+}
+
+.gift29{
+    transform: translate(330px, 4140px);
+}
+
+.gift30{
+    transform: translate(950px, 4270px);
 }
 
 .button27{
     background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
-    transform: translate(950px, 4040px);
-}
-
-.box29{
-    background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
-    transform: translate(640px,4190px);
+    transform: translate(650px, 4040px);
 }
 
 .button28{
     background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
-    transform: translate(690px,4280px);
-}
-
-.box30{
-    background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
-    transform: translate(1260px, 4320px);
+    transform: translate(390px,4280px);
 }
 
 .button29{
     background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
-    transform: translate(1310px, 4410px);
+    transform: translate(1010px, 4410px);
 }
