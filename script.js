@@ -19,7 +19,7 @@ function clicado(caixa) {
 }
 
 function carregarEstadoCaixas() {
-  var caixas = document.querySelectorAll('.box');
+  var caixas = document.querySelectorAll('.gift');
   caixas.forEach(function(caixa) {
     var transformSalvo = localStorage.getItem(caixa.id + '_transform');
     if (transformSalvo) {
