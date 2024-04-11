@@ -168,9 +168,11 @@ div > img {
 }
 
 .dialog0 > p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    font-family: 'Tangerine', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
     transform: translateY(-20px);
+    margin-top: -50px;
+    margin-bottom: 10px;
 }
 
 .dialog0 > button {
@@ -550,8 +552,33 @@ div > img {
 }
 
 .button27{
+    font-family: 'Tangerine',Impact, sans-serif;
+    font-size: 35px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+    background-size: 200% 200%;
+    animation: rainbow 1.5s linear infinite;
     background-image: linear-gradient(to right, rgb(205, 127, 50), rgb(179, 110, 43), rgb(160, 99, 39),rgb(139, 86, 34),rgb(160, 99, 39),rgb(179, 110, 43), rgb(205, 127, 50));
-    transform: translate(950px, 4040px);
+    transform: translate(940px, 3940px);
+}
+
+.button27 p {
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    transform: translate(-1px, -57px);
+    padding: 4px;
+    width: 128px;
+    border-radius: 12px;
+    position: absolute;
+    transition: .2s;
+    color: rgb(160, 99, 39);
+}
+
+.button27 p:hover {
+    background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(45, 45, 45), rgb(12, 12, 12));
+    color: whitesmoke;
 }
 
 .gift29::before{
@@ -573,8 +600,33 @@ div > img {
 }
 
 .button28{
+    font-family: 'Tangerine',Impact, sans-serif;
+    font-size: 35px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+    background-size: 200% 200%;
+    animation: rainbow 1.5s linear infinite;
     background-image: linear-gradient(to right, rgb(216, 216, 216), rgb(179, 179, 179), rgb(160, 160, 160),rgb(139, 139, 139),rgb(160, 160, 160),rgb(179, 179, 179), rgb(216, 216, 216));
-    transform: translate(690px,4280px);
+    transform: translate(680px,4180px);
+}
+
+.button28 p {
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    transform: translate(-1px, -57px);
+    padding: 4px;
+    width: 128px;
+    border-radius: 12px;
+    position: absolute;
+    transition: .2s;
+    color: rgb(160, 160, 160);
+}
+
+.button28 p:hover {
+    background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(45, 45, 45), rgb(12, 12, 12));
+    color: whitesmoke;
 }
 
 .gift30::before{
@@ -596,6 +648,31 @@ div > img {
 }
 
 .button29{
+    font-family: 'Tangerine',Impact, sans-serif;
+    font-size: 35px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+    background-size: 200% 200%;
     background-image: linear-gradient(to right, gold, goldenrod, rgb(185, 141, 27),rgb(160, 121, 24), rgb(185, 141, 27), goldenrod, gold);
-    transform: translate(1310px, 4410px);
+    animation: rainbow 1.5s linear infinite;
+    transform: translate(1300px, 4310px);
+}
+
+.button29 p {
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    transform: translate(-1px, -57px);
+    padding: 4px;
+    width: 128px;
+    border-radius: 12px;
+    position: absolute;
+    transition: .2s;
+    color: rgb(235, 178, 35);
+}
+
+.button29 p:hover {
+    background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(45, 45, 45), rgb(12, 12, 12));
+    color: whitesmoke;
 }
