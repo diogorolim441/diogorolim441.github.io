@@ -6,7 +6,8 @@ function clicado(caixa) {
   var idCaixa = caixa.id;
   
   if (idCaixa <= dataFormatada) {
-      caixa.style.transform = "translate(-400px, 70px) rotate(1080deg)";
+      var posicao = caixa.getBoundingClientRect();
+      caixa.style.transform = `translate(${posicao.left - 1600 + window.scrollX}px, ${posicao.top + window.scrollY}px) rotate(1080deg)`;
 
       setTimeout(function () {
           caixa.style.display = 'none';
