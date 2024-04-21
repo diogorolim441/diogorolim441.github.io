@@ -40,3 +40,5 @@ function fecharModal(modal) {
 };
 
 carregarEstadoCaixas();
+
+//teste
